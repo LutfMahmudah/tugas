@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(35, 38, 41);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+
+}
+
+.container{
+    background-color: rgb(21, 25, 32);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0,1);
+    padding: 30px;
+    width: 300px;
+}
+.profil-img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+}
+ 
+.nama{
+    font-size: 24px;
+    color: rgb(197, 186, 155);
+    margin-bottom: 10px;
+}
+
+.job{
+    font-size: 16px;
+    color: rgb(170, 122, 32);
+    margin-bottom: 10px;
+}
+
+.link{
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 8px;
+    background-color: rgb(170, 122, 32);
+    color: rgb(231, 223, 187);
+    text-decoration: none;
+    transition:all  0.3s ease;
+    margin: 3px;
+}
+.hak{
+    font-size: 13px;
+    bottom: 0px;
+
+}
+
